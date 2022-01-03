@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/*navbar*/
+nav {
+  display: flex;
+  background-color: #ccd5ae;
+  justify-content: space-around;
+  padding: 25px 0;
+  color: #d4a373;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.521));
+  text-shadow: 0px 4px 4px #1a01019c;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+nav h4 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px #83b4e27a;
+  }
+  
+  nav span {
+    color: #faedcd;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+  }
+  
+  nav ul li a {
+    color: #d4a373;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 25px;
+    font-weight: 900;
+  }
+
+/*home*/
+
+  .Home {
+      padding-top: 250px;
+      padding-bottom: 247px;
+      text-align: center;
+      background-color: #e9edc9;
+  }
+
+  .profil {
+      border-radius: 50%;
+      height: 150px;
+  }
+
+  .Home h2 { 
+      padding-top: 20px;
+  }
+
+  /*about*/
+   .About {
+       background-color: #fcd5ce;
+      padding-top: 305px;
+      padding-bottom: 350px;
+      text-align: center;
+  }
+
+  .About h2 {
+      padding-bottom: 20px;
+      font-size: 50px;
+  }
+
+  .About p{
+      font-size: 20px;
+  }
+  /*skill*/
+  .Skill {
+    padding:170px 0;
+    text-align: center;
+    background-color: #ddb892;
+  }
+
+  .Skill h2 {
+      font-size: 50px;
+      padding-bottom: 30px;
+  }
+
+  .Skill .box {
+      background-color: #ffe8d6;
+      display: inline-block;
+      flex-direction: row;
+      padding: 40px 80px;
+      border-radius: 10px;
+  }
+
+  /*Hobby*/
+  .Hobby {
+      padding:170px 0;
+      text-align: center;
+      background-color: #ddb892;
+  }
+
+  .Hobby h2{
+      font-size: 50px;
+      padding-bottom: 30px;
+  }
+
+  .Hobby .box {
+      background-color: #ffe8d6;
+      display: inline-block;
+      flex-direction: row;
+      padding: 40px 80px;
+      border-radius: 10px;
+  }
+  .Hobby .box:hover {
+      padding: 40px;
+      transition: all 1s;
+  }
+ 
+  /*contact*/
+  .contact {
+      background-color: #d4a373;
+  }
+  .contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact .row .content {
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+  }
+  
+  .contact .row form {
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    padding-bottom: 4rem;
+  }
+  
+  
+  .contact .row form button {
+    width: 100px;
+    height: 70px;
+    float: right;
+  }
+  
+  .contact .row form button:hover {
+    filter: drop-shadow(0px 4px 4px #6e88fa);
+  }
+  
+  .contact .row form button p:active {
+    font-size: 0px;
+    transform: rotate(360deg);
+    transition: all 0.2s;
+  }
+  
+  .contact .row form .box {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+  }
+  
+  .contact .row form .box::placeholder {
+    text-transform: capitalize;
+  }
+  
+  .contact .row form .message {
+    height: 15rem;
+    resize: none;
+  }
+  
+  .contact .row .content .title {
+    text-transform: capitalize;
+    color: #7f5539;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+  .contact .row .content .info h3 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #7f5539;
+    padding: 1rem 0;
+    font-weight: normal;
+  }
+  
+  .contact .row .content .info h3 i {
+    padding-right: 1rem;
+    color: var(--yellow);
+  }
+  
+  footer {
+    background-color: #ccd5ae;
+    padding: 20px 23px;
+    color: #d4a373;
+    text-align: center;
+    font-weight: bold;
+  }
